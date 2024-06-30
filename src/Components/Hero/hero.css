@@ -1,0 +1,92 @@
+.hero-container {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(206, 204, 204), rgb(15, 14, 14));
+  height: fit-content;
+}
+.hero {
+  width: 100%;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.hero-left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.hero-left-side-text p {
+  font-size: 28px;
+  font-weight: 650;
+  margin-bottom: 14px;
+}
+.hero-left-side-text h1 {
+  font-size: 64px;
+}
+.hand-icon {
+  width: 100px;
+}
+
+.hero-left-side-button button {
+  width: 320px;
+  height: 72px;
+  font-size: 24px;
+  font-weight: 550;
+  border-radius: 6px;
+  color: white;
+  background-color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.hero-right-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+.hero-right-side img {
+  width: 440px;
+  height: 600px;
+}
+/*///// / Responsive Styles ///// */
+
+@media (max-width: 890px) {
+  .hero {
+    padding: 50px;
+  }
+  .hero-left-side {
+    gap: 16px;
+  }
+  .hero-left-side-text h1 {
+    font-size: 42px;
+  }
+  .hand-icon {
+    width: 80px;
+  }
+  .hero-right-side img {
+    width: 300px;
+    height: 450px;
+  }
+}
+@media (max-width: 650px) {
+  .hero-left-side {
+    position: absolute;
+  }
+  .hero-left-side-text {
+    position: relative;
+  }
+  .hero-left-side-text p {
+    margin-bottom: 24px;
+    font-weight: 550;
+    font-size: 22px;
+  }
+  .hero-left-side-button button {
+    width: 250px;
+    height: 55px;
+  }
+}

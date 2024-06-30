@@ -1,0 +1,22 @@
+.breadcrums {
+  width: 100%;
+  max-width: 85%;
+  margin: 20px auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(110, 109, 109);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+@media screen and (max-width: 910px) {
+  .breadcrums {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .breadcrums {
+    font-size: 14px;
+    margin: 10px auto;
+  }
+}

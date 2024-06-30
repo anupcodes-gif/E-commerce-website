@@ -1,0 +1,31 @@
+.relatedProduct {
+  width: 100%;
+  max-width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+.relatedProduct h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.relatedProduct hr {
+  border: none;
+  height: 2px;
+  background-color: grey;
+}
+
+.realtedProduct-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+@media screen and (max-width: 1200px) {
+  .realtedProduct-items {
+    justify-content: center;
+    align-items: center;
+  }
+}

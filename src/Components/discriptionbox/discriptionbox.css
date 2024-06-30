@@ -1,0 +1,25 @@
+.discriptionBox {
+  width: 100%;
+  max-width: 85%;
+  margin: 74px auto;
+}
+.discriptionBox-navigator {
+  display: flex;
+  align-items: center;
+}
+.discriptionBox-discription button {
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: 550;
+}
+.discriptionBox-riview button {
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.discriptionBox-details {
+  border: 1px solid black;
+  padding: 32px 42px;
+  font-size: 16px;
+  font-weight: 500;
+}

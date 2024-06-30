@@ -1,0 +1,169 @@
+.news-letter {
+  width: 100%;
+  max-width: 83%;
+  margin: 54px auto;
+  background: linear-gradient(to bottom, rgb(206, 204, 204), rgb(15, 14, 14));
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 74px;
+}
+.news-letter h1 {
+  font-size: 52px;
+  font-weight: 550;
+  text-transform: capitalize;
+}
+.news-letter p {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: rgb(224, 224, 224);
+}
+.news-letter div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 750px;
+  height: 70px;
+  border-radius: 82px;
+  border: 1px solid rgb(101, 101, 101);
+}
+.news-letter input {
+  width: 600px;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  color: white;
+  font-weight: 500;
+}
+.news-letter input::placeholder {
+  color: rgb(190, 189, 189);
+}
+.news-letter button {
+  width: 210px;
+  height: 70px;
+  border-radius: 82px;
+  font-size: 22px;
+  border: none;
+  font-weight: 500;
+  background-color: black;
+  color: rgb(216, 213, 213);
+  cursor: pointer;
+}
+@media screen and (max-width: 950px) {
+  .news-letter h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .news-letter p {
+    font-size: 18px;
+  }
+  .news-letter div {
+    width: 650px;
+  }
+  .news-letter input {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .news-letter h1 {
+    font-size: 32px;
+  }
+  .news-letter div {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .news-letter div {
+    width: 570px;
+    height: 60px;
+  }
+  .news-letter button {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 705px) {
+  .news-letter h1 {
+    font-size: 24px;
+  }
+  .news-letter p {
+    font-size: 16px;
+  }
+  .news-letter div {
+    width: 500px;
+    height: 55px;
+  }
+  .news-letter button {
+    height: 55px;
+    font-size: 20px;
+  }
+  .news-letter input {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .news-letter h1 {
+    font-size: 20px;
+  }
+  .news-letter p {
+    font-size: 14px;
+  }
+  .news-letter div {
+    width: 450px;
+    height: 45px;
+  }
+  .news-letter button {
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 588px) {
+  .news-letter h1 {
+    font-size: 16px;
+  }
+  .news-letter p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .news-letter div {
+    width: 400px;
+    height: 40px;
+  }
+  .news-letter button {
+    height: 40px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .news-letter div {
+    width: 350px;
+    height: 35px;
+  }
+  .news-letter button {
+    height: 35px;
+    font-size: 14px;
+  }
+  .news-letter input {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .news-letter div {
+    width: 300px;
+    height: 30px;
+  }
+  .news-letter input {
+    width: 360px;
+  }
+  .news-letter button {
+    height: 30px;
+  }
+}

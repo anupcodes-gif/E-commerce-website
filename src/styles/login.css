@@ -1,0 +1,79 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(188, 124, 124),
+    rgb(217, 165, 236)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 60px 56px;
+  background-color: white;
+}
+.login-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-title p {
+  font-size: 24px;
+  font-weight: 550;
+  cursor: pointer;
+  margin-bottom: 24px;
+  color: red;
+}
+.login-title h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.login-input {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.login-input input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgb(148, 146, 146);
+  outline: none;
+  font-size: 18px;
+  padding-left: 8px;
+}
+.login-button button {
+  width: 100%;
+  height: 56px;
+  margin-top: 22px;
+  border: none;
+  background-color: red;
+  color: rgb(251, 249, 249);
+  font-size: 20px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.login-detail {
+  font-size: 18px;
+  margin-top: 14px;
+}
+.login-detail span {
+  color: red;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 6px;
+}
+.login-policy input {
+  cursor: pointer;
+}
+.login-policy {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+}

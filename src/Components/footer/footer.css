@@ -1,0 +1,92 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(44, 43, 43), rgb(159, 154, 154));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 0px;
+}
+.footer .logo {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.footer .logo h1 {
+  color: rgb(220, 216, 216);
+  font-size: 36px;
+  font-weight: 550;
+}
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin-top: 22px;
+}
+.footer-links li {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: rgb(214, 213, 213);
+  cursor: pointer;
+}
+.footer-socialLinks {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.footer-socialLinks div:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.footer hr {
+  height: 3px;
+  background-color: rgb(67, 66, 66);
+  width: 85%;
+  border: none;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+.footer-copyright p {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 727px) {
+  .logo img {
+    width: 60px;
+  }
+  .footer .logo h1 {
+    font-size: 32px;
+    font-weight: 550;
+  }
+  .footer-links {
+    gap: 22px;
+  }
+  .footer-links li {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo img {
+    width: 46px;
+  }
+  .footer .logo h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .footer-links {
+    gap: 14px;
+  }
+  .footer-links li {
+    font-size: 16px;
+  }
+  .footer-copyright p {
+    font-size: 18px;
+  }
+}
